@@ -1,0 +1,4 @@
+#!/bin/bash
+
+psql -f 1-cluster_review.sql | tee cluster_review.md
+
